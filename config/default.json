@@ -1,0 +1,15 @@
+{
+  "luxtronic": {
+    "host": "replace-this-with-the-ip-address",
+    "port": 8889
+  },
+  "mongoDB": {
+    "connectionString": "mongodb+srv://<username>:<password>@my.server.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "username": "mySecretUsername",
+    "password": "mySecretPassword"
+  },
+  "device": {
+    "id": "HeatPump",
+    "description": "Alpha Innotec Heat Pump"
+  }
+}

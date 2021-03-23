@@ -1,0 +1,22 @@
+{
+  "name": "luxtronik2-logger",
+  "version": "1.0.0",
+  "description": "Logs the status of luxtronik2 devices to mongoDB (specifically built for Alpha Innotec device)",
+  "scripts": {
+    "start": "node logger.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jamie Townsend",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.6",
+    "cron": "^1.8.2",
+    "luxtronik2": "^2.4.0",
+    "moment": "^2.29.1",
+    "mongodb": "^3.6.5"
+  },
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}
